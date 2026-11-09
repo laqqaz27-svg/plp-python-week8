@@ -1,0 +1,49 @@
+
+PERSONAL MINI-TOOLKIT — PROJECT PLAN
+
+1. TOOLS
+
+Tool 1: Simple Calculator
+The calculator allows users to add, subtract, multiply, and divide two numbers.
+Concepts: input, variables, conditionals, arithmetic operators, f-strings.
+
+Tool 2: To-Do List
+The to-do list allows users to add tasks, view saved tasks, and remove tasks.
+Concepts: lists, append(), remove(), loops, conditionals, f-strings.
+
+Tool 3: Number Checker
+The number checker tells users whether a number is even or odd, positive or negative, or zero.
+Concepts: input, type conversion, modulo operator, conditionals, f-strings.
+
+2. EXACT MENU TEXT
+
+====================================
+       PERSONAL MINI-TOOLKIT
+====================================
+1. Simple Calculator
+2. To-Do List
+3. Number Checker
+4. Quit
+====================================
+
+Enter your choice (1-4):
+
+3. PROGRAM FLOW
+
+The program displays a welcome message and shows the menu.
+The user selects a tool by entering a number.
+The program runs the selected tool and returns to the menu.
+If the user enters an invalid choice, the program displays a polite error message.
+The program ends when the user chooses option 4.
+
+4. PYTHON CONCEPTS
+
+- while loop: keeps the menu running.
+- for loop: displays tasks in the to-do list.
+- if, elif, else: handles menu choices and decisions.
+- list: stores tasks.
+- append(): adds tasks.
+- remove(): removes tasks.
+- input(): receives information from the user.
+- f-strings: displays friendly messages.
+- try and except: handles invalid number input.
